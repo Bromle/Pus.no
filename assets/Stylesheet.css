@@ -17,6 +17,7 @@ header h1{
 }
 
 nav {
+    border-radius: 30px;
     float: left;
     width: max-content;
     align-content: center;
@@ -24,7 +25,6 @@ nav {
 }
 
 nav a {
-    color: chocolate;
     display: inline-block;
     padding: 2px 5px 2px 5px;
     text-decoration: none;
@@ -59,6 +59,7 @@ aside {
 }
 
 img {
+    border-radius: 30px;
     display: inline-block;
     width: 120%
 }
