@@ -2,6 +2,7 @@ body {
     margin: auto;
     max-width: 500px;
     background: #f1e3dd;
+    transform: scale(2);
 }
 
 header {
