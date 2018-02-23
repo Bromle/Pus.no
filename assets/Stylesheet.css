@@ -26,13 +26,16 @@ nav {
 }
 
 nav a {
+    color: inherit;
     display: inline-block;
     padding: 2px 5px 2px 5px;
     text-decoration: none;
 }
 
-nav a:hover {
+
+nav a:hover, .selected {
     background: red;
+    border-radius: 30px;
 }
 
 section {
@@ -42,7 +45,8 @@ section {
 }
 
 footer {
-float: left;
+
+    float: left;
     box-sizing: content-box;
 }
 
@@ -59,10 +63,14 @@ aside {
     width: 35%;
 }
 
-img {
+.smallimg {
     border-radius: 30px;
     display: inline-block;
     width: 120%
+}
+
+.albumimg {
+    max-height: 100px;
 }
 
 figure {
