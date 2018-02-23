@@ -34,7 +34,7 @@ nav a {
 
 
 nav a:hover, .selected {
-    background: red;
+    background: #d6d4c7;
     border-radius: 30px;
 }
 
@@ -93,6 +93,9 @@ header img {
 .logoleft {
     float: left;
 }
+figcaption {
+     font-size: x-small;
+ }
 
 
 
@@ -123,13 +126,3 @@ header img {
 
 
 
-
-
-
-/*@media screen
-and (max-width: 736px)   {
-    body {
-        max-width: 100%;
-    }
-}
-*/
